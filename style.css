@@ -84,12 +84,20 @@ h3, h4 {
 
 .day-2-title {
   position: absolute;
-  left: 150px;
+  left: 15%;
 }
 
 .day-3-title {
   position: absolute;
-  left: 620px;
+  left: 62%;
+}
+
+.day-2-3-title {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  display: none;
 }
 
 .bracket {
@@ -122,3 +130,27 @@ li:first-child {
 h6 {
   font-size: 12px;
 }
+
+@media(max-width: 700px) {
+  .day {
+    margin-top: 0;
+  }
+
+  .day-2-3 {
+    margin-bottom: 0;
+    border-top: 2px solid #f4f4f4;
+  }
+
+  .day-2-title, .day-3-title {
+    display: none;
+  }
+
+  .day-2-3-title {
+    display: block;
+  }
+
+  .bracket {
+    margin-top: 130px;
+  }
+}
+
