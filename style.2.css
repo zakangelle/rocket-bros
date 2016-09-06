@@ -241,8 +241,8 @@ li.game {
   text-align: center;
 }
 
-li.game.winner {
-  font-weight: bold;
+.winner {
+  font-weight: 700;
 }
 
 li.game span {
