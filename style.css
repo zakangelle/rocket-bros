@@ -84,12 +84,12 @@ h3, h4 {
 
 .day-2-title {
   position: absolute;
-  left: 15%;
+  left: 13%;
 }
 
 .day-3-title {
   position: absolute;
-  left: 62%;
+  left: 60%;
 }
 
 .day-2-3-title {
@@ -100,12 +100,6 @@ h3, h4 {
   display: none;
 }
 
-.bracket {
-  padding-bottom: 30px;
-  margin: 120px auto 0;
-  width: 80%;
-}
-
 ol {
   margin-top: 20px;
   margin-bottom: 0;
@@ -113,12 +107,12 @@ ol {
   list-style: none;
 }
 
-li {
+ol li {
   padding: 15px;
   border-bottom: 1px solid #eee;
 }
 
-li:first-child {
+ol li:first-child {
   border-top: 1px solid #eee;
 }
 
@@ -149,8 +143,73 @@ h6 {
     display: block;
   }
 
-  .bracket {
-    margin-top: 130px;
+  li.game {
+    padding-left: 0;
+    font-size: 12px;
   }
 }
 
+.bracket {
+  margin: 100px auto 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 267px;
+  list-style: none;
+  padding: 0;
+}
+
+.round .spacer {
+  flex-grow: 1;
+}
+
+.round .game-spacer {
+  flex-grow: 1;
+}
+
+li.game {
+  text-align: center;
+}
+
+li.game.winner {
+  font-weight: bold;
+}
+
+li.game span {
+  float: right;
+  margin-right: 5px;
+}
+
+li.game-top {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #ccc;
+}
+
+li.game-spacer {
+  border-right: 2px solid #ccc;
+  min-height: 100px;
+}
+
+li.game-bottom {
+  padding-top: 3px;
+  border-top: 2px solid #ccc;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.round-1 li.game-spacer {
+  min-height: 20px;
+  flex-grow: 0.3;
+}
+
+.round-4 .spacer:first-child {
+  min-height: 50px;
+}
