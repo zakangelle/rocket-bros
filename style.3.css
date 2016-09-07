@@ -273,6 +273,10 @@ li.game-bottom {
   flex-grow: 0.3;
 }
 
+.round-3 .game-spacer {
+  height: 88px;
+}
+
 .round-4 .spacer:first-child {
   min-height: 50px;
 }
