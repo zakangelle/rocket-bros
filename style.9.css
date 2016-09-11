@@ -95,13 +95,13 @@ h3, h4 {
 
 .stream {
   top: 20px;
-  margin: 20px auto;
+  margin: 20px auto 0;
   padding-top: 0;
 }
 
 .stream iframe {
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .main {
