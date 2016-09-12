@@ -236,12 +236,12 @@ li.game-bottom {
 }
 
 .round-1 li.game-spacer {
-  min-height: 20px;
+  min-height: 60px;
   flex-grow: 0.3;
 }
 
 .round-3 .game-spacer {
-  height: 88px;
+  min-height: 142px;
 }
 
 .round-4 .spacer:first-child {
@@ -308,6 +308,13 @@ li.game-bottom {
     padding-left: 0;
     font-size: 12px;
   }
+
+.round-1 li.game-spacer {
+  min-height: 40px;
+}
+
+.round-3 .game-spacer {
+  min-height: 120px;
 }
 
 @media(max-width: 500px) {
