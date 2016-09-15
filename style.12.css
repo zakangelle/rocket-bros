@@ -249,6 +249,12 @@ li.game-bottom {
 }
 
 @media(max-width: 700px) {
+  .trophy {
+    top: -2px;
+    position: relative;
+    font-size: 10px;
+  }
+
   .stream iframe {
     height: 350px;
   }
