@@ -49,11 +49,15 @@ h3, h4 {
   transition: background 0.3s;
 }
 
-.trophy {
+.fa {
   position: relative;
-  top: -2px;
+  top: -3px;
   font-size: 14px;
   opacity: 0.6;
+}
+
+.trophy {
+  top: -2px;
 }
 
 .title {
