@@ -131,6 +131,14 @@ h3, h4 {
   left: 60%;
 }
 
+.day-3-4-title {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  display: none;
+}
+
 ol {
   margin-top: 20px;
   margin-bottom: 0;
@@ -252,7 +260,7 @@ li.game-bottom {
 }
 
 .round-4 .spacer:first-child {
-  min-height: 50px;
+  min-height: 36px;
 }
 
 @media(max-width: 700px) {
@@ -270,7 +278,15 @@ li.game-bottom {
     margin-bottom: 0;
   }
 
-  .day-3-4 {
+  .day-3-title, .day-4-title {
+    display: none;
+  }
+
+  .day-3-4-title {
+    display: block;
+  }
+
+  .day-2, .day-3-4 {
     margin-top: 0;
     margin-bottom: 0;
     border-top: 2px solid #f4f4f4;
