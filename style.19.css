@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
 html, body {
   overflow-x: hidden;
 }
 
 body {
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   background: #f4f4f4;
 }
@@ -24,6 +27,7 @@ h3 {
 }
 
 h4 {
+  margin-bottom: 5px;
   font-size: 14px;
   color: #666;
 }
@@ -210,7 +214,12 @@ h6 {
 li.game {
   position: relative;
   padding-left: 26px; /* remove once `wins` are added */
+  font-size: 16px;
   text-align: center;
+}
+
+.round-4 li.game {
+  padding-left: 16px;
 }
 
 .winner {
@@ -331,8 +340,13 @@ li.game-bottom {
 
   li.game {
     padding-left: 0;
+    padding-left: 16px; /* remove once `wins` are added */
     font-size: 12px;
   }
+
+.round-4 li.game {
+  padding-left: 6px;
+}
 
 .round-1 li.game-spacer {
   min-height: 40px;
