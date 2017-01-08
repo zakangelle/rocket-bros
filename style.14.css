@@ -97,6 +97,10 @@ h3, h4 {
   box-shadow: 1px 1px 0 #e2e2e2;
 }
 
+.day-2 {
+  margin-top: 20px;
+}
+
 .stream {
   top: 20px;
   margin: 20px auto 0;
@@ -112,27 +116,19 @@ h3, h4 {
   margin-top: 60px;
 }
 
-.day-2-3 {
+.day-3-4 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.day-2-title {
+.day-3-title {
   position: absolute;
   left: 13%;
 }
 
-.day-3-title {
+.day-4-title {
   position: absolute;
   left: 60%;
-}
-
-.day-2-3-title {
-  position: absolute;
-  left: 50%;
-  margin-left: -150px;
-  width: 300px;
-  display: none;
 }
 
 ol {
@@ -204,6 +200,7 @@ h6 {
 
 li.game {
   position: relative;
+  padding-left: 26px; /* remove once `wins` are added */
   text-align: center;
 }
 
@@ -218,6 +215,7 @@ li.game .wins {
   display: inline-block;
   font-size: 14px;
   background: #eee;
+  visibility: hidden;
 }
 
 li.game-top {
@@ -239,8 +237,12 @@ li.game-bottom {
   visibility: hidden;
 }
 
+.round-1-top-spacer {
+  height: 52px;
+}
+
 .round-1 li.game-spacer {
-  min-height: 60px;
+  min-height: 32px;
   flex-grow: 0.3;
 }
 
@@ -267,7 +269,7 @@ li.game-bottom {
     margin-bottom: 0;
   }
 
-  .day-2-3 {
+  .day-3-4 {
     margin-top: 0;
     margin-bottom: 0;
     border-top: 2px solid #f4f4f4;
@@ -306,11 +308,7 @@ li.game-bottom {
     padding-right: 5px;
   }
 
-  .day-2-title, .day-3-title {
-    display: none;
-  }
-
-  .day-2-3-title {
+  .day-3-4-title {
     display: block;
   }
 
