@@ -74,8 +74,8 @@ h6 {
 .container {
   position: relative;
   margin: 0 auto;
+  padding: 20px 0 0;
   max-width: 1000px;
-  padding-top: 20px;
   text-align: center;
   background: #fff;
   box-shadow: 1px 1px 0 #e2e2e2;
@@ -149,6 +149,10 @@ ol li {
 
 ol li:first-child {
   border-top: 1px solid #eee;
+}
+
+ol li:last-child {
+  border-bottom: 0;
 }
 
 .tiebreakers {
