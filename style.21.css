@@ -24,11 +24,13 @@ h2 {
 
 h3 {
   font-size: 18px;
+  font-weight: 400;
 }
 
 h4 {
   margin-bottom: 5px;
   font-size: 14px;
+  font-weight: 400;
   color: #666;
 }
 
@@ -37,35 +39,14 @@ h5 {
   color: #666;
 }
 
-h3, h4 {
-  font-weight: 400;
+h6 {
+  font-size: 10px;
+  display: inline-block;
 }
 
-.panel-title {
-  font-size: 14px;
-}
-
-.panel-title a {
-  margin-top: -20px;
-  padding: 14px 12px 12px;
-  display: block;
-  line-height: 20px;
-  transition: background 0.3s;
-}
-
-.fa {
-  position: relative;
-  top: -3px;
-  font-size: 14px;
-  opacity: 0.6;
-}
-
-.trophy {
-  top: -2px;
-}
-
-.title {
-  padding: 0 10px;
+.logo {
+  margin: 0 auto;
+  width: 150px;
 }
 
 .navbar {
@@ -86,12 +67,11 @@ h3, h4 {
   color: #fff;
 }
 
-.logo {
-  margin: 0 auto;
-  width: 150px;
+.main {
+  margin-top: 60px;
 }
 
-.day, .tiebreakers, .stream {
+.container {
   position: relative;
   margin: 0 auto;
   max-width: 1000px;
@@ -101,8 +81,20 @@ h3, h4 {
   box-shadow: 1px 1px 0 #e2e2e2;
 }
 
-.day-2 {
-  margin-top: 15px;
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-title a {
+  margin-top: -20px;
+  padding: 14px 12px 12px;
+  display: block;
+  line-height: 20px;
+  transition: background 0.3s;
+}
+
+.title {
+  padding: 0 10px;
 }
 
 .stream {
@@ -116,8 +108,8 @@ h3, h4 {
   height: 500px;
 }
 
-.main {
-  margin-top: 60px;
+.day-2 {
+  margin-top: 15px;
 }
 
 .day-3-4 {
@@ -181,11 +173,6 @@ ol li:first-child {
   border: 0;
 }
 
-h6 {
-  font-size: 10px;
-  display: inline-block;
-}
-
 .bracket {
   margin: 100px auto 0;
   padding-bottom: 20px;
@@ -218,15 +205,11 @@ li.game {
   text-align: center;
 }
 
-.round-4 li.game {
-  padding-left: 16px;
-}
-
 .winner {
   font-weight: 500;
 }
 
-li.game .wins {
+.wins {
   margin-top: 1px;
   padding: 2px 10px;
   float: right;
@@ -251,10 +234,6 @@ li.game-bottom {
   border-top: 2px solid #ccc;
 }
 
-.hidden {
-  visibility: hidden;
-}
-
 .round-1-top-spacer {
   height: 52px;
 }
@@ -268,8 +247,27 @@ li.game-bottom {
   min-height: 142px;
 }
 
+.round-4 li.game {
+  padding-left: 16px;
+}
+
 .round-4 .spacer:first-child {
   min-height: 36px;
+}
+
+.fa {
+  position: relative;
+  top: -3px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.trophy {
+  top: -2px;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 @media(max-width: 700px) {
@@ -344,16 +342,17 @@ li.game-bottom {
     font-size: 12px;
   }
 
-.round-4 li.game {
-  padding-left: 6px;
-}
+  .round-4 li.game {
+    padding-left: 6px;
+  }
 
-.round-1 li.game-spacer {
-  min-height: 40px;
-}
+  .round-1 li.game-spacer {
+    min-height: 40px;
+  }
 
-.round-3 .game-spacer {
-  min-height: 120px;
+  .round-3 .game-spacer {
+    min-height: 120px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -361,4 +360,3 @@ li.game-bottom {
     height: 250px;
   }
 }
-
