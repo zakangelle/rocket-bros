@@ -159,6 +159,16 @@ ol li:last-child {
   display: block;
 }
 
+.rank {
+  margin-top: -3px;
+  margin-right: -3px;
+  width: 18px;
+}
+
+.vs {
+  font-size: 14px;
+}
+
 .arena {
   padding: 4px 10px;
   font-size: 12px;
