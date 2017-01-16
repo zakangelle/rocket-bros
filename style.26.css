@@ -322,7 +322,7 @@ li.game-bottom {
   .day-2, .day-3-4 {
     margin-top: 0;
     margin-bottom: 0;
-    border-top: 2px solid #f4f4f4;
+    border-top: 5px solid #f4f4f4;
   }
 
   .panel-title {
