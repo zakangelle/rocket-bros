@@ -246,7 +246,6 @@ li.game {
 }
 
 li.game-top {
-  padding-bottom: 3px;
   border-bottom: 2px solid #ccc;
 }
 
@@ -367,6 +366,10 @@ li.game-bottom {
     margin-top: 130px;
     zoom: 0.8;
   }
+
+  li.game-top, li.game-bottom, li.game-spacer {
+    border-width: 3px;
+  }
 }
 
 @media(max-width: 510px) {
@@ -378,9 +381,17 @@ li.game-bottom {
     margin-top: 155px;
     zoom: 0.7;
   }
+
+  li.game {
+    font-size: 17px;
+  }
+
+  li.game-top, li.game-bottom, li.game-spacer {
+    border-width: 4px;
+  }
 }
 
-@media(max-width: 450px) {
+@media(max-width: 465px) {
   .bracket {
     margin-top: 180px;
     zoom: 0.6;
