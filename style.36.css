@@ -87,8 +87,7 @@ h6 {
 }
 
 .panel-title a {
-  margin-top: -20px;
-  padding: 14px 12px 12px;
+  padding: 14px 12px 5px;
   display: block;
   line-height: 20px;
   transition: background 0.3s;
@@ -114,7 +113,6 @@ h6 {
 }
 
 .day-3-4 {
-  margin-top: 15px;
   margin-bottom: 15px;
 }
 
