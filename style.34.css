@@ -337,15 +337,6 @@ li.game-bottom {
     margin-bottom: 0;
   }
 
-  li.game .wins {
-    margin-top: 0;
-    margin-right: 10px;
-    padding: 0;
-    font-size: 12px;
-    line-height: 18px;
-    background: none;
-  }
-
   .tiebreakers {
     margin-bottom: 0;
     padding: 15px 25px;
@@ -369,32 +360,29 @@ li.game-bottom {
   .day-3-4-title {
     display: block;
   }
+}
 
-  li.game {
-    padding-left: 0;
-    padding-left: 6px; /* remove once `wins` are added */
-    font-size: 12px;
-  }
-
-  .round-4 li.game {
-    padding-left: 6px;
-  }
-
-  .round-1 li.game-spacer {
-    min-height: 40px;
-  }
-
-  .round-3 .game-spacer {
-    min-height: 120px;
+@media(max-width: 640px) {
+  .bracket {
+    margin-top: 130px;
+    zoom: 0.8;
   }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 510px) {
   .stream iframe {
     height: 250px;
   }
 
-  .round-1 li.game-spacer {
-    min-height: 18px;
+  .bracket {
+    margin-top: 155px;
+    zoom: 0.7;
+  }
+}
+
+@media(max-width: 450px) {
+  .bracket {
+    margin-top: 180px;
+    zoom: 0.6;
   }
 }
