@@ -393,4 +393,8 @@ li.game-bottom {
   .stream iframe {
     height: 250px;
   }
+
+  .round-1 li.game-spacer {
+    min-height: 18px;
+  }
 }
