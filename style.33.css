@@ -372,7 +372,7 @@ li.game-bottom {
 
   li.game {
     padding-left: 0;
-    padding-left: 16px; /* remove once `wins` are added */
+    padding-left: 6px; /* remove once `wins` are added */
     font-size: 12px;
   }
 
