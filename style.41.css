@@ -404,6 +404,10 @@ li.game-bottom {
     padding: 2px 6px;
     font-size: 10px;
   }
+
+  li.game-top .wins {
+    top: 0;
+  }
 }
 
 @media(max-width: 465px) {
