@@ -227,7 +227,7 @@ ol li:last-child {
 
 li.game {
   position: relative;
-  padding-left: 26px; /* remove once `wins` are added */
+  padding-left: 10px;
   font-size: 16px;
   text-align: center;
 }
@@ -237,13 +237,25 @@ li.game {
 }
 
 .wins {
-  margin-top: 1px;
   padding: 2px 10px;
   float: right;
   display: inline-block;
   font-size: 14px;
   background: #eee;
   visibility: hidden;
+}
+
+.round-1 .wins {
+  visibility: visible;
+}
+
+.round-2 .wins {
+  visibility: hidden;
+}
+
+li.game-top .wins {
+  position: relative;
+  top: -3px;
 }
 
 li.game-top {
@@ -368,6 +380,10 @@ li.game-bottom {
   li.game-top, li.game-bottom, li.game-spacer {
     border-width: 3px;
   }
+
+  .wins {
+    zoom: 0.9;
+  }
 }
 
 @media(max-width: 510px) {
@@ -386,6 +402,10 @@ li.game-bottom {
 
   li.game-top, li.game-bottom, li.game-spacer {
     border-width: 4px;
+  }
+
+  .wins {
+    zoom: 0.5;
   }
 }
 
