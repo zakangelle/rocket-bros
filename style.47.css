@@ -254,6 +254,10 @@ li.game {
   visibility: visible;
 }
 
+.round-3 li.game {
+  padding-left: 26px;
+}
+
 li.game-top .wins {
   position: relative;
   top: -3px;
