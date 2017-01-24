@@ -250,7 +250,7 @@ li.game {
 }
 
 .round-2 .wins {
-  visibility: hidden;
+  visibility: visible;
 }
 
 li.game-top .wins {
