@@ -102,6 +102,7 @@ h6 {
   top: 20px;
   margin: 20px auto 17px;
   padding-top: 0;
+  display: none;
 }
 
 .stream iframe {
