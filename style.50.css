@@ -102,6 +102,7 @@ h6 {
   top: 20px;
   margin: 20px auto 17px;
   padding-top: 0;
+  display: none;
 }
 
 .stream iframe {
@@ -280,23 +281,14 @@ li.game-bottom {
   min-height: 142px;
 }
 
-.round-4 li.game {
-  padding-left: 16px;
-}
-
 .round-4 .spacer:first-child {
   min-height: 36px;
 }
 
 .fa {
   position: relative;
-  top: -3px;
   font-size: 14px;
   opacity: 0.6;
-}
-
-.trophy {
-  top: -2px;
 }
 
 .hidden {
