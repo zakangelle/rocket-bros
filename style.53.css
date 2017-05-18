@@ -57,6 +57,10 @@ section {
   margin-bottom: 40px;
 }
 
+.tiebreakers h3 {
+  margin-bottom: 10px;
+}
+
 .medium {
   font-weight: 500;
 }
