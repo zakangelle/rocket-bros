@@ -101,6 +101,12 @@ section {
   box-shadow: 1px 1px 0 #e2e2e2;
 }
 
+@media(max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
+
 .panel-title {
   font-size: 14px;
 }
